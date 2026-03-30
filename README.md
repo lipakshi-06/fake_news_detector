@@ -1,13 +1,13 @@
 # 📰 Fake News Detector
 
-## 📌 Overview
+##  Overview
 The Fake News Detector is a Machine Learning project that classifies news text as **Real** or **Fake** using Natural Language Processing (NLP).
 
 It analyzes patterns in textual data rather than verifying facts from external sources, making it a fast and efficient classification system.
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 - Detect fake news using machine learning
 - Apply NLP techniques for text processing
 - Build a command-line executable project
@@ -15,7 +15,7 @@ It analyzes patterns in textual data rather than verifying facts from external s
 
 ---
 
-## 🚀 Features
+##  Features
 - Classifies news as REAL or FAKE
 - Uses TF-IDF for feature extraction
 - Logistic Regression model
@@ -24,7 +24,7 @@ It analyzes patterns in textual data rather than verifying facts from external s
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 fake_news_detector/
 │
 ├── main.py # CLI version (runs in terminal)
@@ -32,19 +32,19 @@ fake_news_detector/
 ├── news.csv # Dataset
 └── README.md
 
-## ▶️ How to Run
+##  How to Run
 
-### 🔹 Run CLI Version (Recommended & Required)
+###  Run CLI Version (Recommended & Required)
 python main.py
 👉 This runs the project in the terminal without any GUI.
 
 ---
-### 🔹 Run GUI Version (Optional)
+###  Run GUI Version (Optional)
 streamlit run app.py
 👉 Opens a web interface in your browser.
 
 ---
-## 🧪 Example Usage
+##  Example Usage
 ### Input:Government bans mobile phones in schools
 ### Output:
 Prediction: REAL NEWS ✅
@@ -52,7 +52,7 @@ Prediction: REAL NEWS ✅
 
 ---
 
-## 🧠 How It Works
+##  How It Works
 
 1. Text is cleaned (removes symbols and stopwords)
 2. TF-IDF converts text into numerical features
@@ -61,7 +61,7 @@ Prediction: REAL NEWS ✅
 
 ---
 
-## ⚠️ Limitations
+##  Limitations
 
 - Does not verify real-world facts
 - Works best with news-style statements
@@ -69,7 +69,7 @@ Prediction: REAL NEWS ✅
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - Python
 - Pandas
@@ -79,7 +79,7 @@ Prediction: REAL NEWS ✅
 
 ---
 
-## 📚 Learning Outcomes
+##  Learning Outcomes
 
 - Understanding of NLP and text preprocessing
 - Implementation of machine learning models
@@ -88,7 +88,7 @@ Prediction: REAL NEWS ✅
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 Lipakshi Shah
 
